@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_200"
+    android:id="@+id/idRLBSheet"
+    >
+    <TextView
+        android:id="@+id/idTvJourneyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Journey Name"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id="@+id/idJourneyImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/idTvJourneyName"
+        android:layout_margin="4dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerVertical="true"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:id="@+id/TvDescription"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/idJourneyImage"
+        android:layout_below="@id/idTvJourneyName"
+        android:padding="3dp"
+
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_below="@id/idJourneyImage"
+
+        >
+        <Button
+            android:id="@+id/idBtnEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="Edit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/idBtnViewDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="View Detail"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ViewEachJourneyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:text="This is a View Each Journey" />-->
+
+    <ImageView
+        android:id="@+id/each_place_image_section"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/ic_baseline_image_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:id="@+id/back_icon"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/ic_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/TextColorSection"
+        />
+
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:text="Pokhara"
+        android:textColor="@color/TextColorSection"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/each_place_image_section"
+        />
+
+    <TextView
+        android:id="@+id/city_description_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:text="The beautiful and mystical country of Nepal never fails to impress, with its dense jungles, cloudy mountaintops, exotic wildlife, fascinating cultures and scintillating topography."
+        android:lineHeight="30dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/city_name"
+        />
+    <ImageView
+        android:id="@+id/location_section"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/ic_a_location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city_description_section"
+        />
+
+    <TextView
+        android:id="@+id/location_link_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/black"
+        android:text="www.google.com"
+        android:textSize="20sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city_description_section"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

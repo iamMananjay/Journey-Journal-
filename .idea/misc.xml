@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/JourneyJournal/app/src/main/res/drawable/progress_back.xml" value="0.2015" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/activity_add_journey.xml" value="0.25416666666666665" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/fragment_add_journey.xml" value="0.25416666666666665" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/fragment_add_journey_detail.xml" value="0.1" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/fragment_each_journey_detail.xml" value="0.1859375" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/fragment_each_notification_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/fragment_each_product_detail.xml" value="0.18385416666666668" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/fragment_edit_journey.xml" value="0.25" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/fragment_notifications.xml" value="0.22" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/fragment_view_each_journey.xml" value="0.25" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/journey_list_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/layout/layout_fact_item.xml" value="0.33" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22" />
+        <entry key="..\:/JourneyJournal/app/src/main/res/xml/file_paths.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

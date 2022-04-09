@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".EditJourneyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/addEachImageJourney"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/ic_baseline_image_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitXY"
+        />
+    <ImageView
+        android:id="@+id/choose_image"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="55dp"
+        android:layout_marginTop="218dp"
+        android:background="@drawable/ic_baseline_camera_alt_24"
+        />
+    <ImageView
+        android:id="@+id/upload_image"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="218dp"
+        android:background="@drawable/ic_baseline_cloud_upload_24"
+        />
+
+    <ImageView
+        android:id="@+id/back_icon"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/ic_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/TextColorSection"
+        />
+
+
+    <EditText
+        android:id="@+id/add_placeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addEachImageJourney"
+        android:paddingTop="25dp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:hint="PlaceName"
+        />
+    <EditText
+        android:id="@+id/add_place_Description"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/add_placeName"
+        android:paddingTop="25dp"
+        android:paddingBottom="20dp"
+        android:inputType="textMultiLine|textImeMultiLine"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:hint="Place Description"
+        />
+    <Button
+        android:id="@+id/update_Journey_Btn"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:text="Update Journey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="@color/TextColorSection"
+        app:layout_constraintTop_toBottomOf="@id/add_place_Description"
+        />
+
+    <ProgressBar
+        android:id="@+id/Loading_Add_Product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:indeterminateDrawable="@drawable/progress_back"
+        android:visibility="gone"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

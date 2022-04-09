@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.dashboard.DashboardFragment"
+    >
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/save_card"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <ImageView
+            android:id="@+id/profile_user"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/profilesectiona"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/Notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alisha Shrestha Add Journey"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="5 minutes ago"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/Time"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="45dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="320dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="March 5" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/save_card2"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/save_card"
+
+        >
+        <ImageView
+            android:id="@+id/profile_user1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/profilesectiona"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/Notification1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manjil Shrestha Add Journey"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="20dp"
+
+            />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="5 minutes ago"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/Time"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="45dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="320dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="March 5" />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/save_card3"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/save_card2"
+        android:layout_marginBottom="5dp"
+        >
+        <ImageView
+            android:id="@+id/profile_user2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/profilesectiona"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/Notification2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manu Shrestha Add Journey"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="20dp"
+
+            />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="5 minutes ago"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/Time"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="45dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="320dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="March 5" />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/save_card4"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/save_card3"
+        android:layout_marginBottom="5dp"
+        >
+        <ImageView
+            android:id="@+id/profile_user3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/profilesectiona"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/Notification3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alina Shrestha Add Journey"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="20dp"
+
+            />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="5 minutes ago"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/Time"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="45dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="320dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="March 5" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/save_card5"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/save_card4"
+        android:layout_marginBottom="5dp"
+        >
+        <ImageView
+            android:id="@+id/profile_user4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/profilesectiona"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/Notification4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anish Shrestha Add Journey"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="20dp"
+
+            />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="5 minutes ago"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/Time"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="45dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="320dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="March 5" />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/save_card6"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/save_card5"
+        android:layout_marginBottom="5dp"
+        >
+        <ImageView
+            android:id="@+id/profile_user5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/profilesectiona"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/Notification5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mananjay Shrestha Add Journey"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="20dp"
+
+            />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="5 minutes ago"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/Time"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="45dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="320dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="March 5" />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/save_card7"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/save_card6"
+        android:layout_marginBottom="5dp"
+        >
+        <ImageView
+            android:id="@+id/profile_user6"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/profilesectiona"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/Notification6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anjali Shrestha Add Journey"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="20dp"
+
+            />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="5 minutes ago"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/Time"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="45dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="320dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="March 5" />
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
